@@ -13,7 +13,7 @@ const LawOlimpia = () => {
                     <div className="law-olimpia-image five-column"></div>
                     <div className="law-olimpia-text five-column">
                         <h2>Por fin es aprobada la ley Olimpia¡</h2>
-                        <p> La ley olimpia fue aprobada esta tal de agosto del año 3000,
+                        <p> La ley olimpia por fin fue aprobada,
                             una gran noticia para México
                         </p>
                         <NavLink to="/LeyOlimpia">

@@ -14,7 +14,7 @@ const EducativeModel = () => {
                         <div className="title-image">
                             <div className="title-text seven-column">
                                 <h2>¿Cuales son los modelos educativos actuales?,
-                                    y que hay de malo con ellos?
+                                    ¿y que hay de malo con ellos?
                                 </h2>
                             </div>
                             <div className="educ-image five-column"></div>

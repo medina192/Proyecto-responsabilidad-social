@@ -60,7 +60,7 @@ const OlimpiaLaw = () => {
                                     <tr>
                                         <th>Entidad Federativa</th>
                                         <th>Regulación</th>
-                                        <th>Snación</th>
+                                        <th>Sanción</th>
                                         <th>Fecha de publicación</th>
                                     </tr>
                                 </thead>

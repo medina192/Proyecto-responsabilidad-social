@@ -65,7 +65,7 @@ const TableMain = () => {
                 <div className="class-background-chart animate__animated animate__fadeIn">
                     <div className="table-centered-content">
                         <h2>Estadisticas importantes sobre los feminicidios en México</h2>
-                        <h3>Número de feminicidios y homicidios dolosos de mujeres en todos estados hasta 
+                        <h3>Número de feminicidios y homicidios dolosos de mujeres en todos los estados hasta 
                             noviembre del 2020</h3>
                         <div className="container-table">
                             <table className="table-class">

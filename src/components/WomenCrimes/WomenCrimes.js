@@ -11,7 +11,7 @@ const WomenCrimes = () => {
                     </header>
                     <div id="content">
                         <div className="hipsum">
-                            <p className="crime-title">¿Cómo denunciar violencia de género?</p>
+                            <p className="crime-title">¿Cómo denunciar la violencia de género?</p>
                             <p>
                                 El primer paso es saber que no estás sola. De acuerdo con la Ley de 
                                 Bolsillo contra las Violencias hacia las Mujeres, elaborada por la
