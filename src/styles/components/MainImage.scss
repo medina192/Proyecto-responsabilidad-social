@@ -1,0 +1,81 @@
+
+.container-main-image{
+    margin-bottom: 0px;
+    background-color: blue;
+}
+
+.main-image{
+    background-image: url(../../static_fields/img/main_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 0px;
+}
+
+.main-image h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin: 0;
+    box-shadow: 0 0 25px rgba($color: #000000, $alpha: 1.0);
+    transition: all ease-in-out 1s;
+    
+
+    &:hover{
+        font-size: 5rem;
+        color: $orange;
+    }
+}
+
+
+
+.main-image p {
+    font-size: 3rem;
+    font-weight: 700;
+    transition: font-size ease-in-out 1s;
+    transition: all ease-in-out 1s;
+    &:hover{
+        color: $violet;
+        font-size: 3.5rem;
+    }
+}
+
+.main-image button {
+    padding: 1rem 2.3rem;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.main-image-icons{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-image-icons i{
+    font-size: 8rem;
+    color: $violet;
+    transition: color ease-in-out 1s;
+
+    &:hover{
+        color: $orange;
+    }
+}
+
+.main-image-icons .color-orange{
+    color: $orange;
+
+    transition: color ease-in-out 1s;
+    
+    &:hover{
+        color: $violet;
+    }
+}
+
+
+

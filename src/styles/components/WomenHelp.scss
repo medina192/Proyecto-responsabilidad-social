@@ -1,0 +1,72 @@
+
+.help-body{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0rem;
+    background-color: lighten($color: #d36582, $amount: 1);
+}
+
+.help-container{
+    width: 80%;
+    background-color: #0b0a07;
+    box-shadow: 0 0 1rem rgba($color: #fff, $alpha: 0.6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help-container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 35rem;
+}
+
+.help-Image{
+    background-image: url(../../static_fields/img/delitos.jpg);
+    width: 100%;
+    height: 95%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.help-text{
+    background-color: white;
+    padding: 1.6rem;
+}
+
+.help-text h4{
+    font-size: 3rem;
+    margin: 0;
+    color: #fd3e81;
+    margin-bottom: 2rem;
+}
+
+.help-text p{
+    font-size: 2.1rem;
+    margin: 0;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.help-container-button{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.help-container-button button{
+    font-size: 2.2rem;
+    height: 4rem;
+    width: 15rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #fd3e81;
+    color: $white;
+
+    &:hover{
+        background-color: darken($color: #fd3e81, $amount: 8);
+    }
+}

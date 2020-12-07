@@ -1,0 +1,127 @@
+
+
+
+
+.march-container-main-image{
+    width:100%;
+    height: 42rem;
+    background-color: turquoise;
+}
+
+.march-main-image{
+    background-image: url(../../static_fields/img/mujer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%
+}
+
+.march-container-degraded-bar{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, $orange 100%);
+}
+
+.march-container-degraded-bar p{
+    color: $white;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.march-container-framework{
+    padding: 5rem;
+}
+
+.march-framework{
+    border: 0.5rem solid #6b042f;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 2px 3px 11px -1px rgba(0,0,0,0.78);
+    -moz-box-shadow: 2px 3px 11px -1px rgba(0,0,0,0.78);
+    box-shadow: 2px 3px 11px -1px rgba(0,0,0,0.78);
+    padding: 2.8rem;
+ 
+}
+
+.march-content h2{
+    font-size: 3rem;
+    justify-content: center;
+}
+
+.march-content h2 span{
+    font-size: 3rem;
+    color: $orange;
+}
+
+.march-content p{
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.march-framework-title-image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.march-container-title-img{
+    
+}
+
+.march-title-img{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.march-container-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.march-description{
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.march-container-comments{
+    display: flex;
+    justify-content: space-between;
+}
+
+.march-comment{
+    width: calc(33% - 1rem);
+    border: 0.2rem solid $orange;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.march-comment p{
+    font-size: 1.6rem;
+    justify-content: center;
+}
+.march-sentence h3{
+    font-size: 2.5rem;
+    text-align: center;
+    color: $orange;
+}
+
+.march-sentence p{
+    font-size: 1.8rem;
+    text-align: end;
+}
+
+.march-sentense-author{
+    font-size: 1.5rem;
+    text-align: end;
+}
+
+
+
+
+
+
+

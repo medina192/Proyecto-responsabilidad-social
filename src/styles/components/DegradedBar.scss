@@ -1,0 +1,27 @@
+
+.container-degraded-bar{
+    background: #741d51; /* Old browsers */
+    background: -moz-linear-gradient(left, $orange 0%, $black 50%, $violet 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, $orange 0%, $black 50%, $violet 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, $orange 0%, $black 50%, $violet 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   margin: 0px;
+}
+
+.row-degraded-bar{
+    display: flex;
+}
+
+.item-degraded-bar{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1.8rem;
+    display: flex;
+}
+
+
+
+.icon{
+    font-size: 3.5rem;
+}
+

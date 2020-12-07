@@ -1,0 +1,145 @@
+
+
+.body-Educative-model{
+    background-color: violet;
+    padding: 3rem;
+    
+
+}
+
+.container-shadow{
+    
+    box-shadow: 0 0 25px rgba($color: #000000, $alpha: 1.0);
+}
+
+.educ-container-main-image{
+    height: 50rem;
+    width: 80%;
+    background-color: violet;
+    margin: 0 auto;
+}
+
+.educ-main-image{
+    background-image: url(../../static_fields/img/gbf.png);
+    background-size: cover;
+    height: 100%;
+}
+
+.educ-container-content{
+    width: 80%;
+    margin: 0 auto;
+    background-color: $white;
+    padding: 3rem 3rem;
+}
+
+.educ-p-thanks{
+    color: $orange;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+
+
+.title-text{
+    padding: 1rem;
+    color: $violet;
+}
+
+.title-image .title-text h2{
+    font-size: 3rem;
+    color: #e70e8d
+}
+
+
+.title-image{
+    display: flex;
+}
+
+.educ-image{
+    background-image: url(../../static_fields/img/unnamed.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50rem;
+    padding: 1rem;
+}
+
+.title-image .title-text p{
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.educ-p{
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.traditional-model h3{
+    text-align: center;
+    font-size: 2.7rem;
+    color: $violet;
+}
+
+.traditional-container-image{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+}
+
+.traditional-image{
+    background-image: url(../../static_fields/img/qwee.png);
+    background-size: contain;
+    width: 50rem;
+    height: 30rem;
+}
+
+.liberal-container-image{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+}
+
+.liberal-image{
+    background-image: url(../../static_fields/img/qertt.jpg);
+    background-size: contain;
+    width: 50rem;
+    height: 30rem;
+}
+
+.Liberal-model h3{
+    text-align: center;
+    font-size: 2.7rem;
+    color: $violet;
+}
+
+.educative-model h3{
+    text-align: center;
+    font-size: 2.7rem;
+    color: $violet;
+}
+
+.educative-container-image{
+    width: 100%;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+}
+
+.educative-image{
+    background-image: url(../../static_fields/img/fondo.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50rem;
+}
+
+.educ-container-content h2{
+    font-size: 3rem;
+    text-align: center;
+    color: $orange;
+}
+
+.educative-model .educ-p span{
+    color: $orange;
+    font-weight: 700;
+}

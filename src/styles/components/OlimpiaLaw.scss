@@ -1,0 +1,168 @@
+
+
+.olim-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    background: rgb(253,123,1);
+    background: radial-gradient(circle, rgba(253,123,1,1) 0%, rgba(41,31,30,1) 100%);
+    
+}
+
+.olim-begin{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+
+
+
+
+
+
+.olim-begin h1{
+    //position: absolute;
+    //top: 50%; 
+    //right: 50%;
+    //transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 5em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.olim-begin p{
+    color: $white;
+    font-size: 7rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.right p{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 6rem;
+    color: white;
+    text-shadow: -1rem 1rem 2rem #cfcece rgba(0, 0, 0, 0.6);
+
+}
+
+
+.olim-container-content{
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.olim-centered-content{
+    background-color: $white;
+    margin: 4rem 0rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 25px rgba($color: #850a56, $alpha: 1.0);
+}
+
+.olim-centered-content h2{
+    text-align: center;
+    font-size: 3rem;
+    color: $orange;
+}
+
+.container-texts{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.container-texts .paragraph-1{
+    background-color: #850a56;
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 2rem 2.5rem;
+    color: $white;
+    text-align: justify;
+}
+
+.container-texts .paragraph-2{
+    background-color: violet;
+    font-size: 2rem;
+    padding: 1rem 1.5rem;
+    text-align: justify;
+}
+
+.container-texts .br-class{
+    background-color: white;
+    padding: 0rem 2rem;
+    box-shadow: 0 0 25px rgba($color: #760a8b, $alpha: 1.0);
+}
+
+.container-texts .br-class hr{
+    border-bottom: 5px solid rgb(153, 102, 8);
+}
+
+.olim-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5rem 0rem;
+    border-radius: 2rem;
+}
+
+.olim-table thead {
+    background-color: white;
+    font-size: 2rem;
+    height: 5rem;
+}
+
+.olim-table thead th{
+    border: 1px solid #0b0520;
+}
+
+
+.olim-table tbody tr{
+    height: 4rem;
+    font-size: 1.8rem;
+    background-color: palegoldenrod;
+    border: 1px solid #0b0520;
+    
+}
+
+.olim-table tbody tr th{
+    padding: 1rem 1rem;
+    border: 1px solid #0b0520;
+}
+
+.olim-table tbody tr th p{
+    color: green;
+}
+
+.olim-button-margin{
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+}
+
+.paragraph-1 div{
+    height: 1rem;
+}
+
+
+

@@ -1,0 +1,46 @@
+
+@import './settings.scss';
+@import './normalize/normalize.scss';
+@import './components/MainImage.scss';
+@import './components/NavBar.scss';
+@import './components/DegradedBar.scss';
+@import './components/informative_cards.scss';
+@import './components/lawOlimpia.scss';
+@import './components/Micromachismos.scss';
+@import './components/EducativeModel.scss';
+@import './components/OlimpiaLaw.scss';
+@import './components/MarchWomanDay.scss';
+@import './components/MexicoStates.scss';
+@import './components/TableMain.scss';
+@import './components/WomenHelp.scss';
+@import './components/WomenCrimes.scss';
+@import './components/Footer.scss';
+
+a{
+    text-decoration: none;
+}
+
+.one-column{width: 8.33%;}
+.two-column{width: 16.66%;}
+.three-column{width: 25%;}
+.four-column{width: 33.33%;}
+.five-column{width: 41.665%;}
+.six-column{width: 50%;}
+.seven-column{width: 58.331%;}
+.eight-column{width: 66.664%;}
+.nine-column{width: 75%;}
+.ten-column{width: 83.33%;}
+.eleven-column{width: 91.663%;}
+.twelve-column{width: 100%;}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+

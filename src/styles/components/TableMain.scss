@@ -1,0 +1,233 @@
+
+
+
+.container-table{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table-class{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba($color: #000000, $alpha: 1.0);
+    margin: 4rem 0rem;
+}
+
+.table-class thead tr{
+    background-color: #0b0a07;
+    font-weight: 700;
+    font-size: 2rem;
+    height: 5rem;
+    color: $white;
+}
+
+.table-class tbody tr{
+    height: 4rem;
+    font-size: 1.8rem;
+    background-color: #ceff1a;
+    border-bottom: 1px solid #0b0520;
+    color: $black;
+    font-weight: 600;
+}
+
+.table-class tbody tr:nth-of-type(even){
+    background-color: #fd3e81;
+    color: $black;
+    font-weight: 600;
+}
+
+.table-class tbody tr:last-of-type{
+    border-bottom: 4px solid $violet;
+}
+
+.class-background-chart{
+    //background-image: url(../../static_fields/img/cool-background.png);
+    background: rgb(253,123,1);
+    background: linear-gradient(180deg, rgba(253,123,1,1) 0%, rgba(127,8,149,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center
+    
+}
+
+.container-chart{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table-centered-content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table-centered-content h2{
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+.table-centered-content h3{
+    color: $white;
+    font-family: 'Raleway',sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+
+.speech-bubble {
+	position: relative;
+	background: green;
+    border-radius: .4em;
+    width: 24rem;
+    height: 12rem;
+    font-size: 1.4rem;
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: green;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+
+.caliz{
+    background-color: salmon;
+}
+
+.chart-styles{
+    box-shadow: 0 0 25px rgba($color: #000000, $alpha: 1.0);
+}
+
+.table-text-content{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0rem;
+    
+}
+
+.table-text-content-div{
+    background-color: white;
+    width: 80%;
+    box-shadow: 0 0 25px rgba($color: #000000, $alpha: 1.0);
+    border: 2px solid #9bc5af;
+    //display: flex;    
+    position: relative;
+}
+
+.table-icons{
+    width: 30%;
+    background-color: #15ebaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.table-icons i{
+    font-size: 6rem;
+}
+
+.table-information{
+    width: 70%;
+    background-color: #eb158b;
+    padding: 1.1rem;
+}
+
+.table-information h4{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.table-content{
+    display: flex;
+}
+
+.burbble1{
+    position: absolute;
+    left: 23%;
+    top: 5%;
+}
+
+.burbble2{
+    position: absolute;
+    left: 23%;
+    top: 35%;
+}
+
+.burbble3{
+    position: absolute;
+    left: 23%;
+    top: 65%;
+}
+
+.table-information{
+    font-size: 1.8rem;
+    color: $white;
+}
+
+.hide-burble {
+    display: none;
+}
+
+.hover-burble{
+
+    &:hover{
+        color: white;
+    }
+}
+
+.container-buble-button button{
+    position: absolute;
+    left: 23%;
+}
+
+.speech-bubble button{
+    margin: 0 !important;
+    height: 30%;
+    align-self: center;
+}
+
+.speech-bubble button{
+    margin: 0;
+    padding: 0;
+    color: green;
+    border-radius: 1.5rem;
+    border: none;
+    font-weight: 600;
+    padding: 0.3rem;
+}
+
+.table-margin-button{
+    margin-bottom: 2rem;
+}
