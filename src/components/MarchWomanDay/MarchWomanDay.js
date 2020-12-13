@@ -79,7 +79,7 @@ const MarchWomanDay = () => {
                         </div>
                         
                         <div className="march-container-video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xGUNwQICVW4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe  className="march-video-class" src="https://www.youtube.com/embed/xGUNwQICVW4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                         <div className="march-sentence">
                             <h3>Por último, una frase para reflexionar</h3>

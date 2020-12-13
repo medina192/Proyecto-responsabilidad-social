@@ -93,10 +93,13 @@
 }
 
 
+
+
+
 @media (max-width:768px){
     .container-informative-cards{
         width: 100%;
-        height: 126rem;
+        height: auto;
         background-color: $white;
         display: flex;
         justify-content: center;
