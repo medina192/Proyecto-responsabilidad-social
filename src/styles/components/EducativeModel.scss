@@ -14,7 +14,7 @@
 
 .educ-container-main-image{
     height: 50rem;
-    width: 80%;
+    width: 100%;
     background-color: violet;
     margin: 0 auto;
 }
@@ -26,7 +26,7 @@
 }
 
 .educ-container-content{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     background-color: $white;
     padding: 3rem 3rem;
@@ -43,6 +43,7 @@
 .title-text{
     padding: 1rem;
     color: $violet;
+    width: 58.331%;
 }
 
 .title-image .title-text h2{
@@ -61,6 +62,7 @@
     background-repeat: no-repeat;
     width: 50rem;
     padding: 1rem;
+    width: 41.665%;
 }
 
 .title-image .title-text p{
@@ -77,6 +79,7 @@
     text-align: center;
     font-size: 2.7rem;
     color: $violet;
+    margin-top: 4rem;
 }
 
 .traditional-container-image{
@@ -89,6 +92,7 @@
 .traditional-image{
     background-image: url(../../static_fields/img/qwee.png);
     background-size: contain;
+    background-repeat: no-repeat;
     width: 50rem;
     height: 30rem;
 }
@@ -103,6 +107,7 @@
 .liberal-image{
     background-image: url(../../static_fields/img/qertt.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
     width: 50rem;
     height: 30rem;
 }
@@ -111,12 +116,14 @@
     text-align: center;
     font-size: 2.7rem;
     color: $violet;
+    margin-top: 4rem;
 }
 
 .educative-model h3{
     text-align: center;
     font-size: 2.7rem;
     color: $violet;
+    margin-top: 4rem;
 }
 
 .educative-container-image{
@@ -142,4 +149,53 @@
 .educative-model .educ-p span{
     color: $orange;
     font-weight: 700;
+}
+
+
+@media (max-width: 968px)
+{
+    .educ-container-main-image{
+        height: 50rem;
+        width: 80%;
+        background-color: violet;
+        margin: 0 auto;
+        display: none;
+    }
+
+    .educ-image{
+        background-image: url(../../static_fields/img/unnamed.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50rem;
+        padding: 1rem;
+        width: 41.665%;
+        display: none;
+    }
+
+    .title-text{
+        padding: 1rem;
+        color: $violet;
+        width: 100%;
+    }
+
+    .traditional-container-image{
+        width: 100%;
+        height: 22rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .liberal-container-image{
+        width: 100%;
+        height: 19rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .educative-container-image{
+        width: 100%;
+        height: 14rem;
+        display: flex;
+        justify-content: center;
+    }
 }

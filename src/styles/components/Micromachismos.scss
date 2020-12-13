@@ -63,6 +63,7 @@
 
 .micro-container-images{
     //background-image: url(../../static_fields/img/q1.jpg);
+    margin-top: 2rem;
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
@@ -165,4 +166,22 @@
 .micro-introduction h4{
     font-size: 2rem;
     line-height: 3rem;
+}
+
+@media (max-width:768px){
+    .micro-container-title h1{
+        margin: 0;                // all the h1 has a margin top, that affects the parent div
+        font-size: 3rem;
+        color: $white;
+    }
+
+    .micro-container-images{
+        //background-image: url(../../static_fields/img/q1.jpg);
+        margin-top: 2rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 32rem;
+        position: relative;
+    }
 }

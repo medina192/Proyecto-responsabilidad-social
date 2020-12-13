@@ -4,8 +4,8 @@ import { NavLink, useHistory } from 'react-router-dom';
 const InformativeCards = () => {
     return (
         <div className="container-informative-cards">
-            <div className="cards ten-column">
-                <div className="card three-column card-one">
+            <div className="cards ">
+                <div className="card  card-one">
                     <div className="container-h3">
                         <h3>Micromachismos, más comunes de lo que piensas</h3>
                     </div>
@@ -24,7 +24,7 @@ const InformativeCards = () => {
                         </div>
                     </div>    
                 </div>
-                <div className="card three-column card-two">
+                <div className="card  card-two">
                     <div className="container-h3">
                         <h3>Estado de México, entidad con más feminicidios en el 2020</h3>
                     </div>
@@ -41,7 +41,7 @@ const InformativeCards = () => {
                         </div>
                     </div>    
                 </div>
-                <div className="card three-column card-three">
+                <div className="card  card-three">
                     <div className="container-h3">
                         <h3>Inicia marcha por violencia contra la mujer</h3>
                     </div>
@@ -58,7 +58,7 @@ const InformativeCards = () => {
                         </div>
                     </div>    
                 </div>
-                <div className="card three-column card-four">
+                <div className="card  card-four">
                     <div className="container-h3">
                         <h3>Un modelo educativo para la equidad de género</h3>
                     </div>

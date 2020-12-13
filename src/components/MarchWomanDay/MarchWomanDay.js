@@ -16,10 +16,10 @@ const MarchWomanDay = () => {
                 <div className="march-container-framework">
                     <div className="march-framework">
                         <div className="march-framework-title-image">
-                            <div className="march-container-title-img five-column">
+                            <div className="march-container-title-img ">
                                 <img src="../assets/img/b.png" className="march-title-img" />
                             </div>
-                            <div className="march-content seven-column">
+                            <div className="march-content">
                                 <h2>
                                     <span>#DíaNaranja:</span> Mujeres protestan en CDMX; exigen seguridad
                                 </h2>

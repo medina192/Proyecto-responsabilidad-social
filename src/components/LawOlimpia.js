@@ -10,9 +10,9 @@ const LawOlimpia = () => {
                     <div className="right"></div>
                 </div>
                 <div className="law-olimpia-content">
-                    <div className="law-olimpia-image five-column"></div>
-                    <div className="law-olimpia-text five-column">
-                        <h2>Por fin es aprobada la ley Olimpia¡</h2>
+                    <div className="law-olimpia-image "></div>
+                    <div className="law-olimpia-text ">
+                        <h2 >Por fin es aprobada la ley Olimpia¡</h2>
                         <p> La ley olimpia por fin fue aprobada,
                             una gran noticia para México
                         </p>

@@ -12,12 +12,12 @@ const EducativeModel = () => {
                 <div className="educ-container-content">
                     <div className="container-title-image">
                         <div className="title-image">
-                            <div className="title-text seven-column">
+                            <div className="title-text ">
                                 <h2>¿Cuales son los modelos educativos actuales?,
                                     ¿y que hay de malo con ellos?
                                 </h2>
                             </div>
-                            <div className="educ-image five-column"></div>
+                            <div className="educ-image "></div>
                         </div>
                     </div>
                     <div className="educ-p">

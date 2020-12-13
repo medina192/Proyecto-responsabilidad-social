@@ -11,11 +11,12 @@
 
 .cards{
     display: flex;
-    background-color: red;
+  
     height: 100%;
     box-shadow: 6px 7px 6px 0px rgba(0,0,0,0.61);
--webkit-box-shadow: 6px 7px 6px 0px rgba(0,0,0,0.61);
--moz-box-shadow: 6px 7px 6px 0px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 6px 7px 6px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: 6px 7px 6px 0px rgba(0,0,0,0.61);
+    width: 83%;
 }
 
 .card{
@@ -23,6 +24,7 @@
     color: white;
     display: flex;
     flex-direction: column;
+    width: 25%;
 }
 
 .container-h3{
@@ -88,4 +90,37 @@
 
 .card-four{
     background-color: #432818;
+}
+
+
+@media (max-width:768px){
+    .container-informative-cards{
+        width: 100%;
+        height: 126rem;
+        background-color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6rem 0rem;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        background-color: #432818;
+        height: 100%;
+        box-shadow: 6px 7px 6px 0px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 6px 7px 6px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: 6px 7px 6px 0px rgba(0,0,0,0.61);
+    width: 92%;
+
+    }
+
+    .card{
+        padding: 1rem 2rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
